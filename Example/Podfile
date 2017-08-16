@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXPod_Lib_Example' do
+  pod 'HXPod_Lib', :path => '../'
+
+  target 'HXPod_Lib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
