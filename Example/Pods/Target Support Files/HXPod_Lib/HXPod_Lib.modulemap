@@ -1,0 +1,6 @@
+framework module HXPod_Lib {
+  umbrella header "HXPod_Lib-umbrella.h"
+
+  export *
+  module * { export * }
+}
